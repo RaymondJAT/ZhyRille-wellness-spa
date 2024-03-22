@@ -1,6 +1,6 @@
 import React from "react";
 import HomeSection from "./HomeSection";
-import zhy from "../../../assets/herov4.png";
+import zhy from "../../../assets/Zhy-bg.png";
 import Nav from "../navbar/Nav";
 import zhyrille from "../../../assets/final logo.png";
 

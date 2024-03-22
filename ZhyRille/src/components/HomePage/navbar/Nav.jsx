@@ -42,10 +42,7 @@ const Nav = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-50">
-      <div
-        className="md:flex items-center justify-between bg-black text-white py-7 md:px-10 px-7"
-        // style={header}
-      >
+      <div className="md:flex items-center justify-between bg-black text-white py-7 md:px-10 px-7">
         <div className="mx-24 flex items-center cursor-pointer">
           <Link to="/">
             {/* <img
@@ -53,7 +50,7 @@ const Nav = () => {
               alt="company logo"
               className="t h-full w-40 sm:h-10 flex flex-col justify-between items-center max-w-[1240px]"
             /> */}
-            <h1 className="text-4xl font-bold">LOGO</h1>
+            <h1 className="text-3xl font-bold">LOGO</h1>
           </Link>
         </div>
 

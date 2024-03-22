@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.cjs";
-import logo from "../../../assets/logo-rectangle.png";
+import logo from "../../../assets/Final-Acro.png";
 
 const Nav = () => {
   let Links = [
@@ -45,12 +45,11 @@ const Nav = () => {
       <div className="md:flex items-center justify-between bg-black text-white py-7 md:px-10 px-7">
         <div className="mx-24 flex items-center cursor-pointer">
           <Link to="/">
-            {/* <img
+            <img
               src={logo}
               alt="company logo"
-              className="t h-full w-40 sm:h-10 flex flex-col justify-between items-center max-w-[1240px]"
-            /> */}
-            <h1 className="text-3xl font-bold">LOGO</h1>
+              className="t h-full w-[100px] sm:h-10 flex flex-col justify-between items-center max-w-[1240px]"
+            />
           </Link>
         </div>
 

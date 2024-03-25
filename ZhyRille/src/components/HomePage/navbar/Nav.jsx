@@ -3,13 +3,13 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.cjs";
-import logo from "../../../assets/Final-Acro.png";
+import logo from "../../../assets/png.png";
 
 const Nav = () => {
   let Links = [
-    { name: "Home.", link: "main" },
-    { name: "About.", link: "about" },
-    { name: "Treatments.", link: "services" },
+    { name: "home.", link: "main" },
+    { name: "about.", link: "about" },
+    { name: "treatments.", link: "services" },
   ];
 
   let [isNav, isSetNav] = useState(false);
@@ -48,7 +48,7 @@ const Nav = () => {
             <img
               src={logo}
               alt="company logo"
-              className="t h-full w-[100px] sm:h-10 flex flex-col justify-between items-center max-w-[1240px]"
+              className="t h-full w-[120px] sm:h-10 flex flex-col justify-between items-center max-w-[1240px]"
             />
           </Link>
         </div>

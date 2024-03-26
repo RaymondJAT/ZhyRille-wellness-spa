@@ -21,19 +21,20 @@ const About = () => {
   };
 
   return (
-    <div
+    <section
+      id="about"
       className="min-h-screen w-full flex items-center justify-center"
       style={styles}
     >
       <div className="container w-11/12 max-w-[1000px] my-0 mx-auto flex items-center justify-center">
         <div
-          className="left w-1/2 h-[500px] rounded-lg my-14 mx-0"
+          className="left w-[800px] h-[500px] rounded-lg my-14 mx-0 border-[3px] border-black"
           style={img}
         ></div>
-        <div className="right w-1/2 min-h-[400px] bg-yellow-500 flex items-center justify-center p-8 rounded-lg -ml-40">
+        <div className="right w-1/2 min-h-[400px] bg-yellow-500 flex items-center justify-center p-8 rounded-lg -ml-44 border-[3px] border-black">
           <div className="content">
-            <h1 className="text text-4xl font-semibold">About Us</h1>
-            <p className="text my-5 mx-0 font-medium leading-6">
+            <h1 className="text-4xl font-semibold">About Us</h1>
+            <p className="my-5 mx-0 font-medium leading-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
               quae, eos quos, voluptas odit dolores enim et, quasi corrupti
               exercitationem aperiam distinctio vel error impedit dolorum porro
@@ -46,7 +47,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

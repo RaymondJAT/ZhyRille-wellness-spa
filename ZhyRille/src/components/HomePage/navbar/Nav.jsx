@@ -7,10 +7,10 @@ import logo from "../../../assets/png.png";
 
 const Nav = () => {
   let Links = [
-    { name: "home.", link: "main" },
-    { name: "about.", link: "about" },
-    { name: "treatments.", link: "services" },
-    { name: "contacts.", link: "contacts" },
+    { name: "home", link: "main" },
+    { name: "about", link: "about" },
+    { name: "treatments", link: "services" },
+    { name: "contacts", link: "contacts" },
   ];
 
   let [isNav, isSetNav] = useState(false);

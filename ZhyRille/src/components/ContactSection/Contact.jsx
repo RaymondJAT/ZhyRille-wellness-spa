@@ -1,5 +1,5 @@
 import React from "react";
-import zhy from "../../assets/Zhyrille Signage.png";
+import zhy from "../../assets/Zhyrille Signage png.png";
 import {
   FaClock,
   FaCopyright,

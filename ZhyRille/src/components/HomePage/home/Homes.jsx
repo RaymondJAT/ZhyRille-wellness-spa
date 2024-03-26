@@ -2,11 +2,11 @@ import React from "react";
 import HomeSection from "./HomeSection";
 import zhy from "../../../assets/Zhy-bg.png";
 import Nav from "../navbar/Nav";
-import zhyrille from "../../../assets/final logo.png";
+import zhyrille from "../../../assets/Zhyrille Signage png.png";
 
 const HomePage = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.5), rgba(10, 0, 0, 0.7)),url(${zhy})`,
+    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.7), rgba(10, 0, 0, 0.8)),url(${zhy})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",

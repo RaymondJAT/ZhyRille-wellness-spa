@@ -10,6 +10,7 @@ const Nav = () => {
     { name: "home.", link: "main" },
     { name: "about.", link: "about" },
     { name: "treatments.", link: "services" },
+    { name: "contacts.", link: "contacts" },
   ];
 
   let [isNav, isSetNav] = useState(false);

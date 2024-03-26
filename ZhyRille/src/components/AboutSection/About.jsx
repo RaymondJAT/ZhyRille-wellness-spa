@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../../assets/about-bg.png";
-import towel from "../../assets/towel.jpg";
+import towel from "../../assets/back massage.jpg";
 
 const About = () => {
   const styles = {
@@ -9,7 +9,7 @@ const About = () => {
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    backgroundAttachment: "fixed",
+    // backgroundAttachment: "fixed",
     innerWidth: "100%",
   };
 
@@ -18,6 +18,7 @@ const About = () => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
+    innerWidth: "100%",
   };
 
   return (

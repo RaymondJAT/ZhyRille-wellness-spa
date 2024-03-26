@@ -6,7 +6,7 @@ const Contact = () => {
     backgroundPosition: "50% 100%",
   };
   return (
-    <section className="body leading-6 bg-black">
+    <section id="contacts" className="body leading-6 bg-black">
       <div
         className="contact-bg h-[20vh] bg-black bg-no-repeat bg-fixed text-center text-white flex flex-col justify-center items-center"
         style={style}
@@ -19,44 +19,76 @@ const Contact = () => {
         </h2>
       </div>
 
-      <div className="contact-body">
-        <div className="contact-info">
-          <div>
+      <div className="contact-body max-w-[1320px] my-0 mx-auto py-4 px-0">
+        <div className="contact-info my-4 mx-0 text-center py-4 px-0">
+          <div className="a my-3 mx-0 p-4">
             {/* font-awesome-icons */}
             <span></span>
-            <span>Phone No.</span>
-            <span>123-123-12345</span>
+            <span className="block text-yellow-500">Phone No.</span>
+            <span className="text block text-yellow-500 font-light opacity-90 pt-2">
+              123-123-12345
+            </span>
           </div>
 
-          <div>
+          <div className="a my-3 mx-0 p-4">
             <span></span>
-            <span>Email</span>
-            <span>sampleEmail@company.com</span>
+            <span className="block text-yellow-500">Email</span>
+            <span className="text block text-yellow-500 font-light opacity-90 pt-2">
+              sampleEmail@company.com
+            </span>
           </div>
 
-          <div>
+          <div className="a my-3 mx-0 p-4">
             <span></span>
-            <span>Address</span>
-            <span>9064 Lyda Summit Apt. 158, East Tyshawnbury</span>
+            <span className="block text-yellow-500">Address</span>
+            <span className="text block text-yellow-500 font-light opacity-90 pt-2">
+              9064 Lyda Summit Apt. 158, East Tyshawnbury
+            </span>
           </div>
 
-          <div>
+          <div className="a my-3 mx-0 p-4">
             <span></span>
-            <span>Opening Hours</span>
-            <span>Monday - Saturday (9:00 AM to 7:00 PM)</span>
+            <span className="block text-yellow-500">Opening Hours</span>
+            <span className="text block text-yellow-500 font-light opacity-90 pt-2">
+              Monday - Saturday (9:00 AM to 7:00 PM)
+            </span>
           </div>
         </div>
 
-        <div className="contact-form">
-          <form action="">
-            <div>
-              <input type="text" name="" id="" placeholder="First Name" />
-              <input type="text" name="" id="" placeholder="Last Name" />
+        <div className="contact-form py-8 px-0 border-t-2 border-yellow-500">
+          <form action="" className="pb-4">
+            <div className="grid grid-cols-2 gap-3">
+              <input
+                type="text"
+                name=""
+                id=""
+                className="form-control w-full border-2 border-yellow-500 rounded-md p-3 my-3 mx-0 text-sm outline-0"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                className="form-control w-full border-2 border-yellow-500 rounded-md p-3 my-3 mx-0 text-sm outline-0"
+                placeholder="Last Name"
+              />
             </div>
 
-            <div>
-              <input type="email" name="" id="" placeholder="Email" />
-              <input type="text" name="" id="" placeholder="Phone" />
+            <div className="grid grid-cols-2 gap-3">
+              <input
+                type="email"
+                name=""
+                id=""
+                className="form-control w-full border-2 border-yellow-500 rounded-md p-3 my-3 mx-0 text-sm outline-0"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                className="form-control w-full border-2 border-yellow-500 rounded-md p-3 my-3 mx-0 text-sm outline-0"
+                placeholder="Phone"
+              />
             </div>
 
             <textarea
@@ -64,13 +96,22 @@ const Contact = () => {
               id=""
               cols=""
               rows="5"
+              className="form-control w-full border-2 border-yellow-500 rounded-md p-3 my-3 mx-0 text-sm outline-0"
               placeholder="Message"
             ></textarea>
-            <input type="submit" value="send message" />
+            <input
+              type="submit"
+              className="send-btn text-sm uppercase text-black bg-yellow-500 border-none rounded-md py-3 px-6 cursor-pointer transition-all duration-300 ease-in hover:opacity-90 hover:font-bold hover:text-white"
+              value="send message"
+            />
           </form>
 
-          <div>
-            <img src={zhy} alt="zhyrille logo" />
+          <div className="my-0 mx-auto text-center justify-center">
+            <img
+              src={zhy}
+              alt="zhyrille logo"
+              className="a w-3/4 my-0 mx-auto text-center justify-center"
+            />
           </div>
         </div>
       </div>

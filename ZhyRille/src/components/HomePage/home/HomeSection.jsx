@@ -29,20 +29,6 @@ const HomeSection = ({ img }) => {
             className="t h-[500px] w-[600px] -my-20 transition hover:scale-105 duration-300"
           />
         </h1>
-
-        {/* button */}
-
-        {/* <button
-          type="button"
-          className="text-white text-xs w-32 md:w-40 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold uppercase bg-red-700"
-          style={red}
-          data-aos="fade"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-delay="700"
-        >
-          join us
-        </button> */}
       </div>
     </section>
   );

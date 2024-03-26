@@ -32,7 +32,7 @@ const About = () => {
           className="left w-[800px] h-[500px] rounded-lg my-14 mx-0 border-[3px] border-black"
           style={img}
         ></div>
-        <div className="right w-1/2 min-h-[400px] bg-yellow-500 flex items-center justify-center p-8 rounded-lg -ml-44 border-[3px] border-black">
+        <div className="right w-1/2 min-h-[400px] bg-white flex items-center justify-center p-8 rounded-lg -ml-44 border-[3px] border-black">
           <div className="content">
             <h1 className="text-4xl font-semibold">About Us</h1>
             <p className="my-5 mx-0 font-medium leading-6">

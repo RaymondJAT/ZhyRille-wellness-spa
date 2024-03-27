@@ -28,7 +28,7 @@ const HomeSection = ({ img }) => {
 
         <button
           type="button"
-          className="text-white text-xs w-32 md:w-32 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold capitalize bg-transparent border-2 border-yellow-100 mt-32"
+          className="text-white text-xs w-32 md:w-32 py-2 md:py-3 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold capitalize bg-transparent border-2 border-yellow-100 mt-20"
           // style={red}
           // data-aos="fade"
           // data-aos-duration="1000"
@@ -41,5 +41,5 @@ const HomeSection = ({ img }) => {
     </section>
   );
 };
-//  transition hover:scale-105 duration-300
+
 export default HomeSection;

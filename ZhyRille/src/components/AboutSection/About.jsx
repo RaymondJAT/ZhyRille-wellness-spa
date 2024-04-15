@@ -1,45 +1,25 @@
 import React from "react";
-import background from "../../assets/about-bg.png";
-import towel from "../../assets/back massage.jpg";
-import massage from "../../assets/img2.jpg";
+import massage from "../../assets/oilbased.jpg";
 
 const About = () => {
-  const styles = {
-    backgroundImage: `url(${background})`,
-    backgroundColor: "#fdf4db",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    // backgroundAttachment: "fixed",
-    innerWidth: "100%",
-  };
-
-  const img = {
-    background: `url(${towel})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    innerWidth: "100%",
-  };
-
   return (
     <section
       id="about"
       className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12"
     >
-      <div className="holiday-img">
+      <div>
         <img
           src={massage}
           alt="oil massage"
-          className="w-full h-auto rounded-xl"
+          className="w-full h-auto rounded-xl mt-14"
         />
       </div>
 
-      <div className="holiday-text">
-        <h5 className="text-[10px] font-bold text-gray-300 uppercase tracking-[6px] mb-10">
+      <div>
+        <h5 className="text-[10px] font-bold text-gray-300 uppercase tracking-[6px] mb-10 mt-8">
           learn more about us
         </h5>
-        <h2 className="text-orange-100 text-5xl font-extrabold leading-5 mb-16">
+        <h2 className="text-orange-100 text-5xl font-extrabold leading-5 mb-10">
           About ZhyRille
         </h2>
         <p className="text-sm font-medium leading-7 text-gray-300 mb-[35px]">

@@ -15,12 +15,12 @@ const HomePage = () => {
   };
 
   return (
-    <section>
+    <div>
       <div id="main" className="w-full min-h-screen pb-16" style={styles}>
         <Nav />
         <HomeSection img={zhyrille} />
       </div>
-    </section>
+    </div>
   );
 };
 

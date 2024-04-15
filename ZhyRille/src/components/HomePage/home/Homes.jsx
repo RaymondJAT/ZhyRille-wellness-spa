@@ -6,10 +6,10 @@ import zhyrille from "../../../assets/logo.png";
 
 const HomePage = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(10, 0, 0, 0.8), rgba(10, 0, 0, 0.5)),url(${zhy})`,
+    backgroundImage: `linear-gradient(to left, rgba(10, 0, 0, 0.8), rgba(10, 0, 0, 0.5)),url(${zhy})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    backgroundPosition: "bottom center",
     backgroundAttachment: "fixed",
     innerWidth: "100%",
   };

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ZhyRille from "../../../assets/logo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -12,31 +13,26 @@ const HomeSection = ({ img }) => {
   }, []);
 
   return (
-    <section id="hero_section" className="px-4 md:px-8 lg:px-16 xl:px-20">
-      {/* hero title */}
-      <div className="align_center flex-col justify-center ">
-        <div
-          id="hero_title"
-          className="text-3xl md:text-5xl md:font-medium mt-56 lg:text-6xl lg:font-medium xl:text-6xl xl:font-medium text-white text-center font-medium tracking-wide"
-          // data-aos="zoom-in-up"
-          // data-aos-duration="400"
-          // data-aos-easing="ease-in-out"
-          // data-aos-delay="500"
-        >
-          <img src={img} alt="" className="t h-[350px] w-[600px] -my-16" />
+    <section
+      id="hero_section"
+      className="p-0 m-0 box-border list-none no-underline border-none outline-none scroll-smooth"
+    >
+      <div className="home mb-16 relative h-screen w-full flex items-center justify-center">
+        <div className="home-text">
+          <img
+            src={ZhyRille}
+            alt="image"
+            className="img mt-20 flex items-center justify-center h-96 w-[600px]"
+          />
+          <div className="center-btn text-center mt-16">
+            <a
+              href="#"
+              className="btn inline-block py-3 px-10 text-sm font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-100 ease-in cursor-pointer bg-orange-100 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-orange-100 hover:bg-transparent hover:text-orange-100"
+            >
+              book now
+            </a>
+          </div>
         </div>
-
-        <button
-          type="button"
-          className="text-white text-xs w-32 md:w-32 py-2 md:py-2 px-2 md:px-4 text-center my-6 mx-auto md:mx-2.5 rounded-md font-bold capitalize bg-transparent border-[3px] border-yellow-100 mt-20"
-          // style={red}
-          // data-aos="fade"
-          // data-aos-duration="1000"
-          // data-aos-easing="ease-in-out"
-          // data-aos-delay="700"
-        >
-          book now
-        </button>
       </div>
     </section>
   );

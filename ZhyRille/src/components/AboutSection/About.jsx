@@ -1,7 +1,7 @@
 import React from "react";
 import background from "../../assets/about-bg.png";
 import towel from "../../assets/back massage.jpg";
-import massage from "../../assets/oilbased.jpg";
+import massage from "../../assets/img2.jpg";
 
 const About = () => {
   const styles = {
@@ -25,35 +25,34 @@ const About = () => {
   return (
     <section
       id="about"
-      className="p-0 m-0 box-border list-none no-underline border-none outline-none scroll-smooth bg-black"
+      className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12"
     >
-      <div className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12 ">
-        <div className="holiday-img w-full h-auto rounded-xl">
-          <img
-            src={massage}
-            alt="oil massage"
-            className="w-full h-auto rounded-xl"
-          />
-        </div>
-        <div className="holiday-text">
-          <h5 className="text-xs font-bold text-gray-300 uppercase tracking-widest mb-5">
-            learn more about us
-          </h5>
-          <h2 className="text-orange-100 text-5xl font-extrabold leading-5 mb-6">
-            About ZhyRille
-          </h2>
-          <p className="text-sm font-medium leading-7 text-gray-300 mb-9">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex
-            eum vitae dolorum aliquam veniam tempora, asperiores dolorem
-            voluptates reprehenderit rem totam blanditiis, sequi labore!
-          </p>
-          <a
-            href="#"
-            className="btn inline-block py-3 px-10 bg-orange-100 text-black text-sm font-semibold border-2 border-transparent rounded-md transition-all duration-75 ease-in cursor-pointer hover:translate-x-3 hover:border-2 hover:border-black hover:text-black hover:bg-transparent"
-          >
-            Read More
-          </a>
-        </div>
+      <div className="holiday-img">
+        <img
+          src={massage}
+          alt="oil massage"
+          className="w-full h-auto rounded-xl"
+        />
+      </div>
+
+      <div className="holiday-text">
+        <h5 className="text-[10px] font-bold text-gray-300 uppercase tracking-[6px] mb-10">
+          learn more about us
+        </h5>
+        <h2 className="text-orange-100 text-5xl font-extrabold leading-5 mb-16">
+          About ZhyRille
+        </h2>
+        <p className="text-sm font-medium leading-7 text-gray-300 mb-[35px]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex
+          eum vitae dolorum aliquam veniam tempora, asperiores dolorem
+          voluptates reprehenderit rem totam blanditiis, sequi labore!
+        </p>
+        <a
+          href="#"
+          className="btn inline-block py-3 px-10 text-sm font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-100 ease-in cursor-pointer bg-orange-100 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-orange-100 hover:bg-transparent hover:text-orange-100"
+        >
+          Read More
+        </a>
       </div>
     </section>
   );

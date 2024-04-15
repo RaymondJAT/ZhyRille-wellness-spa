@@ -6,7 +6,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  color: #fdf4db;
+  background: #070707;
 }
 
 .align_center {

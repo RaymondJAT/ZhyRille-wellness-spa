@@ -43,7 +43,7 @@ const Nav = () => {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0 z-50">
-      <div className="md:flex items-center justify-between bg-black text-white py-7 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-transparent text-white py-7 md:px-10 px-7">
         <div className="mx-24 flex items-center cursor-pointer">
           <Link to="/">
             <img
@@ -64,7 +64,7 @@ const Nav = () => {
           className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static md:z-auto -z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in capitalize text-center py-0 px-24 ${
             isNav ? "top-20" : "top-[-490px]"
           }`}
-          style={header}
+          // style={header}
         >
           {Links.map((link) => (
             <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer">

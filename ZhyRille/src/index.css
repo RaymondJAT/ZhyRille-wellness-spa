@@ -19,6 +19,10 @@ body {
   background: #070707;
 }
 
+/* .tour-content {
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+} */
+
 @media (max-width: 1700px) {
   header {
     padding: 18px 8%;

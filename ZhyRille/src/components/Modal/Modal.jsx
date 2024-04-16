@@ -38,7 +38,8 @@ const Modal = () => {
           />
 
           <h4 className="absolute left-6 bottom-16 text-lg font-bold text-white">
-            Lorem ipsum
+            Hair Removal
+            {/* Tan Giok fontstyle */}
           </h4>
 
           {/* <TERipple rippleColor="white"> */}

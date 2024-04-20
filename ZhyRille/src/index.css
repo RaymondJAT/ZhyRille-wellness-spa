@@ -19,45 +19,6 @@ body {
   background: #070707;
 }
 
-.testRow .testItem:not(.active) {
-  top: 0;
-  left: -100%;
-}
-
-@keyframes next1 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
-}
-@keyframes next2 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-}
-
-@keyframes prev1 {
-  from {
-    left: 0%;
-  }
-  to {
-    left: 100%;
-  }
-}
-@keyframes prev2 {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 0%;
-  }
-}
-
 /* .tour-content {
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 } */

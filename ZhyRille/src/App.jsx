@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/home/Homes";
 import About from "./components/AboutSection/About";
 import Modal from "./components/Modal/Modal";
 import Testimonial from "./components/TestimonialSection/Testimonial";
+import Footer from "./components/FooterSection/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Modal />
       <Testimonial />
+      <Footer />
     </>
   );
 }

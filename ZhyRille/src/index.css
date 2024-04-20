@@ -124,6 +124,31 @@ body {
   .newsletter-content {
     grid-template-columns: 1fr;
   }
+
+  /* Footer */
+  .footer {
+    position: relative;
+    bottom: 0px;
+  }
+
+  .left .footer-content {
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .right h2 {
+    padding-top: 35px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* padding: 0.5rem; */
+  }
+
+  .footer-container .section {
+    margin: 5px 0;
+  }
 }
 
 @media (max-width: 600px) {

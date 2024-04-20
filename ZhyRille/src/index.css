@@ -35,6 +35,10 @@ body {
   section {
     padding: 50px 8% 40px;
   }
+
+  .footer-container {
+    padding: 15px 7%;
+  }
 }
 
 @media (max-width: 1200px) {

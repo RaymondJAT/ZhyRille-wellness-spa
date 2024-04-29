@@ -26,7 +26,7 @@ const Modal = () => {
   return (
     <section className="tour block" style={styles}>
       <div className="center-text text-center">
-        <h2 className="text-5xl font-bold">Treatments</h2>
+        <h2 className="text-5xl text-amber-50 font-bold">Treatments</h2>
       </div>
 
       <div className="tour-content mb-16 grid grid-cols-3 items-center gap-12 mt-16">

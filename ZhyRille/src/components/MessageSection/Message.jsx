@@ -4,17 +4,17 @@ import zhyMessage from "../../assets/zhy.png";
 const Message = () => {
   return (
     <div className="contact-body max-w-[1320px] my-0 mx-auto py-0 px-4 ">
-      <div className="contact-form py-8 px-0 border-t-2 border-yellow-500 grid grid-cols-2 gap-8">
+      <div className="contact-form py-8 px-0 border-t-2 border-black grid grid-cols-2 gap-8">
         <form>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <input
               type="text"
-              className="form-control w-full border-2 border-solid border-yellow-500 rounded-md p-3 my-2 text-sm outline-0"
+              className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
               placeholder="First Name"
             />
             <input
               type="text"
-              className="form-control w-full border-2 border-solid border-yellow-500 rounded-md p-3 my-2 text-sm outline-0"
+              className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
               placeholder="Last Name"
             />
           </div>
@@ -22,14 +22,14 @@ const Message = () => {
           <div className="grid grid-cols-1">
             <input
               type="number"
-              className="form-control w-full border-2 border-solid border-yellow-500 rounded-md p-3 my-2 text-sm outline-0 text-black"
+              className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0 text-black"
               placeholder="Phone"
             />
           </div>
 
           <textarea
             rows="5"
-            className="form-control w-full border-2 border-solid border-yellow-500 rounded-md p-3 my-2 text-sm outline-0"
+            className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
             placeholder="Message"
           ></textarea>
 
@@ -44,7 +44,7 @@ const Message = () => {
           <img
             src={zhyMessage}
             alt="zhycontactimage"
-            className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-2/3"
+            className="w-full sm:w-4/5 md:w-3/4 lg:w-4/5 xl:w-5/6"
           />
         </div>
       </div>

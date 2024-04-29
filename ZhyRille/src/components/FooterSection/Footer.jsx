@@ -88,9 +88,8 @@ const Footer = () => {
         <center className="p-1 text-[8px] bg-black">
           <div>
             <span>
-              Powered By{" "}
               <a href="#" className="no-underline hover:underline">
-                2024 | All Rights Reserved | By RaymondJAT
+                By RaymondJAT
               </a>
             </span>
           </div>

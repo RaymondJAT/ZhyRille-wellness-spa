@@ -14,6 +14,8 @@ const Nav = () => {
   ];
 
   let [isNav, isSetNav] = useState(false);
+  let [isScrolled, setIsScrolled] = useState(false);
+  let [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
 
   const handleNavToggle = () => {
     isSetNav(!isNav);
@@ -25,26 +27,41 @@ const Nav = () => {
 
   useEffect(() => {
     const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
       if (window.innerWidth > 768 && isNav) {
         isSetNav(false);
       }
     };
 
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [isNav]);
 
-  const header = {
-    background: `rgba(0, 0, 0, 0.95)`,
+  const headerStyle = {
+    background: isScrolled || isSmallScreen ? `#000` : "transparent",
+    transition: "background-color 0.3s ease",
   };
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 z-50">
-      <div className="md:flex items-center justify-between bg-transparent text-white py-7 md:px-10 px-7">
-        <div className="mx-24 flex items-center cursor-pointer">
+    <div className="w-full fixed top-0 left-0 z-50">
+      <div
+        className="md:flex items-center justify-between bg-transparent text-white py-7 md:px-10 px-7"
+        style={headerStyle}
+      >
+        <div className="logo sm:mx-24 flex items-center cursor-pointer">
           <Link to="/">
             <img
               src={logo}
@@ -65,6 +82,10 @@ const Nav = () => {
             isNav ? "top-20" : "top-[-490px]"
           }`}
           // style={header}
+          style={{
+            backgroundColor:
+              isSmallScreen || isScrolled ? `#000` : "transparent",
+          }}
         >
           {Links.map((link) => (
             <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer">
@@ -73,7 +94,7 @@ const Nav = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="text-white transition hover:text-yellow-500 hover:font-bold duration-500"
+                className="text-white font-bold transition hover:text-yellow-500 hover:font-medium duration-300"
               >
                 {link.name}
               </Link>

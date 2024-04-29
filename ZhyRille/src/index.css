@@ -22,7 +22,7 @@ input::-webkit-inner-spin-button {
 
 body {
   color: #fdf4db;
-  background: #070707;
+  background: #0c0a09;
 }
 
 /* .tour-content {
@@ -44,6 +44,10 @@ body {
 
   .footer-container {
     padding: 15px 7%;
+  }
+
+  .contact-body {
+    padding: 10px 7%;
   }
 }
 

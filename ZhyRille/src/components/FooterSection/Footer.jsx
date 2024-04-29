@@ -12,24 +12,6 @@ const Footer = () => {
               omnis possimus ex quidem sunt perspiciatis repellat, aperiam
               veritatis totam culpa.
             </p>
-
-            {/* <div className="social mt-5">
-              <a href="#" className="py-0 px-[2px]">
-                <span className="Social-icons h-10 w-10 text-center bg-transparent leading-10 text-lg rounded-[50px] duration-200 border border-solid border-gray-500 hover:bg-yellow-500">
-                  icon
-                </span>
-              </a>
-              <a href="#" className="py-0 px-[2px]">
-                <span className="Social-icons h-10 w-10 text-center bg-transparent leading-10 text-lg rounded-[50px] duration-200 border border-solid border-gray-500 hover:bg-yellow-500">
-                  icon
-                </span>
-              </a>
-              <a href="#" className="py-0 px-[2px]">
-                <span className="Social-icons h-10 w-10 text-center bg-transparent leading-10 text-lg rounded-[50px] duration-200 border border-solid border-gray-500 hover:bg-yellow-500">
-                  icon
-                </span>
-              </a>
-            </div> */}
           </div>
         </div>
 

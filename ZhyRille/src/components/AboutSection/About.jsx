@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12"
+      className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12 bg-stone-950"
     >
       <div>
         <img

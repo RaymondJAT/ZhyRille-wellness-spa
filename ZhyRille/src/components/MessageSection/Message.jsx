@@ -5,7 +5,7 @@ const Message = () => {
   return (
     <div className="contact-body max-w-[1320px] my-0 mx-auto py-0 px-4 ">
       <div className="contact-form py-8 px-0 border-t-2 border-yellow-500 grid grid-cols-2 gap-8">
-        <form className="bg-black">
+        <form>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <input
               type="text"
@@ -40,8 +40,12 @@ const Message = () => {
           />
         </form>
 
-        <div className="flex justify-center items-center">
-          <img src={zhyMessage} alt="zhycontactimage" className="w-[70%]" />
+        <div className="flex justify-end items-center pr-4">
+          <img
+            src={zhyMessage}
+            alt="zhycontactimage"
+            className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-2/3"
+          />
         </div>
       </div>
     </div>

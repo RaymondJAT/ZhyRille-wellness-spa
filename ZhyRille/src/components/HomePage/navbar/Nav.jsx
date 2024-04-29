@@ -55,6 +55,10 @@ const Nav = () => {
     transition: "background-color 0.3s ease",
   };
 
+  const dropdownStyle = {
+    backgroundColor: isSmallScreen ? `rgba(0, 0, 0, 0.95)` : "transparent",
+  };
+
   return (
     <div className="w-full fixed top-0 left-0 z-50">
       <div
@@ -81,11 +85,7 @@ const Nav = () => {
           className={`md:flex md:items-center md:pb-0 pb-5 absolute md:static md:z-auto -z-10 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in capitalize text-center py-0 px-24 ${
             isNav ? "top-20" : "top-[-490px]"
           }`}
-          // style={header}
-          style={{
-            backgroundColor:
-              isSmallScreen || isScrolled ? `#000` : "transparent",
-          }}
+          style={dropdownStyle}
         >
           {Links.map((link) => (
             <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer">
@@ -94,7 +94,7 @@ const Nav = () => {
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="text-white font-bold transition hover:text-yellow-500 hover:font-medium duration-300"
+                className="text-white transition hover:text-yellow-500 hover:font-bold duration-500"
               >
                 {link.name}
               </Link>

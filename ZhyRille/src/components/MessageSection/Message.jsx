@@ -36,7 +36,7 @@ const Message = () => {
           <input
             type="submit"
             value="Send Message"
-            className="send-btn text-xs font-bold uppercase text-black bg-yellow-500 border-none rounded-md py-3 px-4 cursor-pointer transition-all duration-200 ease-in hover:opacity-80"
+            className="send-btn inline-block py-2.5 px-5 text-xs font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
           />
         </form>
 

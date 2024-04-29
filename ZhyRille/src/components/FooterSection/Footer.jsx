@@ -51,12 +51,12 @@ const Footer = () => {
               <input
                 type="email"
                 required
-                className="w-full h-9 text-base bg-transparent border border-solid border-gray-500"
+                className="w-full h-9 bg-transparent border border-solid border-amber-50 text-amber-50 text-xs px-2"
               />
               <div className="btn mt-2.5">
                 <button
                   type="submit"
-                  className="w-full h-10 border-none outline-none bg-yellow-500 text-xs text-black font-semibold cursor-pointer duration-200 hover:bg-black"
+                  className="w-full h-10 border-none outline-none inline-block bg-amber-50 text-xs text-black font-semibold cursor-pointer transition-all duration-200 ease-in hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
                 >
                   Subscribe
                 </button>

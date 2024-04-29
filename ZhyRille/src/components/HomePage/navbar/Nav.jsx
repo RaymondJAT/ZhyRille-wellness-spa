@@ -88,13 +88,13 @@ const Nav = () => {
           style={dropdownStyle}
         >
           {Links.map((link) => (
-            <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer">
+            <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer transition-all duration-300 ease-in hover:-translate-y-1">
               <Link
                 to={link.link}
                 smooth={true}
                 duration={500}
                 offset={-70}
-                className="text-white transition hover:text-yellow-500 hover:font-bold duration-500"
+                className="text-amber-50 font-bold hover:text-yellow-500"
               >
                 {link.name}
               </Link>

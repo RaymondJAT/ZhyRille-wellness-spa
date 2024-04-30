@@ -7,7 +7,7 @@ import img from "../../assets/mema.jpg";
 
 const Treatments = () => {
   const styles = {
-    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url(${img})`,
+    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(${img})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "bottom center",
@@ -18,7 +18,9 @@ const Treatments = () => {
   return (
     <section id="services" className="tour block" style={styles}>
       <div className="center-text text-center">
-        <h2 className="text-5xl text-amber-50 font-bold">Treatments</h2>
+        <h2 className="text-4xl uppercase text-amber-50 font-bold">
+          Treatments
+        </h2>
       </div>
 
       {/* Treatments services box */}

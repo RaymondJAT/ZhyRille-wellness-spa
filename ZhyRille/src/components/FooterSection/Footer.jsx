@@ -1,4 +1,11 @@
 import React from "react";
+// import {
+//   FaFacebookSquare,
+//   FaInstagramSquare,
+//   FaEnvelope,
+//   FaPhoneAlt,
+//   FaMapMarketAlt,
+// } from "react-icons/fa";
 
 const Footer = () => {
   return (

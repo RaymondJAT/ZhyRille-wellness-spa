@@ -4,7 +4,7 @@ import zhyMessage from "../../assets/zhy.png";
 const Message = () => {
   return (
     <div className="contact-body max-w-[1320px] my-0 mx-auto py-0 px-4 ">
-      <hr className="my-0 h-0.5 border-t-0 bg-amber-50 opacity-100 dark:opacity-50" />
+      <hr className="my-0 h-0.5 border-t-0 bg-yellow-500 opacity-100 dark:opacity-50" />
       <div className="contact-form py-8 px-0 border-t-2 border-black grid grid-cols-2 gap-8">
         <form>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">

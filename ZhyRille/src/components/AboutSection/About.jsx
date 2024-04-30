@@ -12,7 +12,7 @@ const About = () => {
         <img
           src={massage}
           alt="oil massage"
-          className="w-full h-auto rounded-xl mt-14 border-2 border-solid border-amber-50"
+          className="max-w-full h-auto rounded-xl mt-14 border-4 border-solid border-amber-50"
         />
       </div>
 
@@ -21,7 +21,7 @@ const About = () => {
           learn more about us
         </h5>
         <h2 className="text-amber-50 text-5xl font-extrabold leading-5 mb-10">
-          About ZhyRille
+          ZhyRille
         </h2>
         <p className="text-sm font-medium leading-7 text-gray-300 mb-[35px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex

@@ -4,6 +4,7 @@ import zhyMessage from "../../assets/zhy.png";
 const Message = () => {
   return (
     <div className="contact-body max-w-[1320px] my-0 mx-auto py-0 px-4 ">
+      <hr className="my-0 h-0.5 border-t-0 bg-amber-50 opacity-100 dark:opacity-50" />
       <div className="contact-form py-8 px-0 border-t-2 border-black grid grid-cols-2 gap-8">
         <form>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -36,7 +37,7 @@ const Message = () => {
           <input
             type="submit"
             value="Send Message"
-            className="send-btn inline-block py-2.5 px-5 text-xs font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
+            className="send-btn mt-2 inline-block py-2.5 px-5 text-xs font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
           />
         </form>
 

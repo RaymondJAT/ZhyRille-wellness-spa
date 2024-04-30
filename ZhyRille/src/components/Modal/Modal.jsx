@@ -12,7 +12,7 @@ const Modal = (props) => {
   const [showModalLg, setShowModalLg] = useState(false);
 
   return (
-    <div className="box relative">
+    <div className="box relative overflow-hidden max-w-xs bg-black bg-fixed rounded-lg">
       <TERipple rippleColor="white">
         <img
           src={props.image}

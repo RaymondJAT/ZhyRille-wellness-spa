@@ -63,48 +63,6 @@ const Treatments = () => {
           modalTitle="Hair Removal Services"
           modalContent="This is the content of the modal."
         />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
-
-        <Modal
-          image={massage}
-          title="Hair Removal"
-          modalTitle="Hair Removal Services"
-          modalContent="This is the content of the modal."
-        />
       </div>
     </section>
   );

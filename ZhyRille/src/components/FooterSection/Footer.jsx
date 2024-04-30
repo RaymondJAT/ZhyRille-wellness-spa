@@ -70,7 +70,10 @@ const Footer = () => {
         <center className="p-1 text-[8px] bg-black">
           <div>
             <span>
-              <a href="#" className="no-underline hover:underline">
+              <a
+                href="#"
+                className="no-underline hover:underline text-gray-500"
+              >
                 By RaymondJAT
               </a>
             </span>

@@ -10,6 +10,7 @@ const Nav = () => {
     { name: "home", link: "main" },
     { name: "about", link: "about" },
     { name: "treatments", link: "services" },
+    { name: "testimonials", link: "testimonials" },
     { name: "contacts", link: "contacts" },
   ];
 
@@ -88,7 +89,7 @@ const Nav = () => {
           style={dropdownStyle}
         >
           {Links.map((link) => (
-            <li className="md:ml-8 md:my-0 my-7  text-sm py-1 px-0 z-10 cursor-pointer transition-all duration-300 ease-in hover:-translate-y-1">
+            <li className="md:ml-8 md:my-0 my-7  text-xs py-1 px-0 z-10 cursor-pointer transition-all duration-300 ease-in hover:-translate-y-1">
               <Link
                 to={link.link}
                 smooth={true}

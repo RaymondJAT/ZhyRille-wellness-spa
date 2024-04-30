@@ -3,7 +3,10 @@ import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 const Testimonial = () => {
   return (
-    <div className="container relative w-full min-h-72 mx-auto">
+    <div
+      id="testimonials"
+      className="container relative w-full min-h-72 mx-auto"
+    >
       <div className="contents-wrapper w-[70%] min-h-inherit my-7 mx-auto text-center">
         <section className="header">
           <h1 className="relative text-4xl text-amber-50 uppercase font-bold text-center tracking-wide before:content-[''] before:w-[150px] before:h-[2px] before:bg-yellow-500 before:rounded-lg before:absolute before:left[50%] before:translate-x-1/2 before:-bottom-2.5">

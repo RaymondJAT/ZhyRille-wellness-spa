@@ -16,7 +16,7 @@ const Treatments = () => {
   };
 
   return (
-    <section className="tour block" style={styles}>
+    <section id="services" className="tour block" style={styles}>
       <div className="center-text text-center">
         <h2 className="text-5xl text-amber-50 font-bold">Treatments</h2>
       </div>

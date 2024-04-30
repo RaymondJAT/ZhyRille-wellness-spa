@@ -9,7 +9,7 @@ import {
 } from "tw-elements-react";
 
 const Modal = (props) => {
-  const [showModalLg, setShowModalLg] = useState(false);
+  const [showModalXL, setShowModalXL] = useState(false);
 
   return (
     <div className="box relative overflow-hidden max-w-xs bg-black bg-fixed rounded-lg">
@@ -27,14 +27,14 @@ const Modal = (props) => {
         <button
           type="button"
           className="btn absolute left-6 bottom-4 py-2 px-6 text-xs font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
-          onClick={() => setShowModalLg(true)}
+          onClick={() => setShowModalXL(true)}
         >
           View More
         </button>
 
         {/* <!--Large modal-->*/}
-        <TEModal show={showModalLg} setShow={setShowModalLg} scrollable>
-          <TEModalDialog size="lg">
+        <TEModal show={showModalXL} setShow={setShowModalXL} scrollable>
+          <TEModalDialog size="xl">
             <TEModalContent>
               <TEModalHeader>
                 {/* <!--Modal title--> */}
@@ -45,7 +45,7 @@ const Modal = (props) => {
                 <button
                   type="button"
                   className="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
-                  onClick={() => setShowModalLg(false)}
+                  onClick={() => setShowModalXL(false)}
                   aria-label="Close"
                 >
                   <svg

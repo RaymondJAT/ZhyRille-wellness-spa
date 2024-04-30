@@ -67,7 +67,7 @@ const Nav = () => {
         style={headerStyle}
       >
         <div className="logo sm:mx-24 flex items-center cursor-pointer">
-          <Link to="/">
+          <Link to="main">
             <img
               src={logo}
               alt="company logo"

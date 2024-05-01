@@ -7,17 +7,20 @@ import Footer from "./components/FooterSection/Footer";
 import Map from "./components/FooterSection/Map";
 import Message from "./components/MessageSection/Message";
 import Treatments from "./components/Modal/Treatments";
+import BookForm from "./components/Booking/BookForm";
 
 function App() {
   return (
     <>
-      <HomePage />
+      {/* <HomePage />
       <About />
       <Treatments />
       <Testimonial />
       <Message />
       <Map />
-      <Footer />
+      <Footer /> */}
+
+      <BookForm />
     </>
   );
 }

@@ -29,15 +29,15 @@ const BookModal = () => {
       <TEModal show={showModal} setShow={setShowModal}>
         <TEModalDialog size="lg" centered>
           <TEModalContent>
-            <TEModalHeader className="bg-stone-950">
+            <TEModalHeader className="bg-amber-50">
               {/* <!--Modal title--> */}
-              <h5 className="text-xl font-medium leading-normal text-neutral-200 dark:text-neutral-200">
+              <h5 className="text-xl font-medium leading-normal text-stone-950">
                 Modal title
               </h5>
               {/* <!--Close button--> */}
               <button
                 type="button"
-                className="text-neutral-200 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+                className="text-stone-950 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
                 onClick={() => setShowModal(false)}
                 aria-label="Close"
               >

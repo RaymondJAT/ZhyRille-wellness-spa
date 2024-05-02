@@ -27,17 +27,17 @@ const BookModal = () => {
 
       {/* <!-- Modal --> */}
       <TEModal show={showModal} setShow={setShowModal}>
-        <TEModalDialog size="lg">
+        <TEModalDialog size="lg" centered>
           <TEModalContent>
-            <TEModalHeader className="bg-red-100">
+            <TEModalHeader className="bg-stone-950">
               {/* <!--Modal title--> */}
-              <h5 className="text-xl font-medium leading-normal text-neutral-800 dark:text-neutral-200">
+              <h5 className="text-xl font-medium leading-normal text-neutral-200 dark:text-neutral-200">
                 Modal title
               </h5>
               {/* <!--Close button--> */}
               <button
                 type="button"
-                className="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+                className="text-neutral-200 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
                 onClick={() => setShowModal(false)}
                 aria-label="Close"
               >
@@ -59,9 +59,9 @@ const BookModal = () => {
             </TEModalHeader>
 
             {/* <!--Modal body--> */}
-            <TEModalBody className="bg-green-200">
-              <BookForm />
-            </TEModalBody>
+            {/* <TEModalBody className="bg-stone-950"> */}
+            <BookForm />
+            {/* </TEModalBody> */}
           </TEModalContent>
         </TEModalDialog>
       </TEModal>

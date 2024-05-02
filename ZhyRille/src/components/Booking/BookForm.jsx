@@ -14,7 +14,7 @@ const BookForm = () => {
     //   <h2 className="pb-10 mb-1 text-3xl font-bold uppercase">
     //     Book your reservation now
     //   </h2>
-    <div className="card-container grid grid-cols-2">
+    <div className="card-container grid grid-cols-2 border-solid border-y-2 border-stone-950">
       <div className="card-img" style={styles}></div>
       <div className="card-content bg-white h-[330px]">
         <h3 className="text-center text-black pt-6 pl-2.5 text-2xl font-semibold">

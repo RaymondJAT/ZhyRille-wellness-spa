@@ -5,8 +5,6 @@ import {
   TEModalDialog,
   TEModalContent,
   TEModalHeader,
-  TEModalBody,
-  TEModalFooter,
 } from "tw-elements-react";
 import BookForm from "./BookForm";
 
@@ -29,15 +27,15 @@ const BookModal = () => {
       <TEModal show={showModal} setShow={setShowModal}>
         <TEModalDialog size="lg" centered>
           <TEModalContent>
-            <TEModalHeader className="bg-amber-50">
+            <TEModalHeader className="bg-stone-950 py-3 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">
               {/* <!--Modal title--> */}
-              <h5 className="text-xl font-medium leading-normal text-stone-950">
+              <h5 className="text-xl font-medium leading-normal text-amber-50">
                 Modal title
               </h5>
               {/* <!--Close button--> */}
               <button
                 type="button"
-                className="text-stone-950 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+                className="text-amber-50 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
                 onClick={() => setShowModal(false)}
                 aria-label="Close"
               >
@@ -57,11 +55,8 @@ const BookModal = () => {
                 </svg>
               </button>
             </TEModalHeader>
-
-            {/* <!--Modal body--> */}
-            {/* <TEModalBody className="bg-stone-950"> */}
+            {/* Booking Form */}
             <BookForm />
-            {/* </TEModalBody> */}
           </TEModalContent>
         </TEModalDialog>
       </TEModal>

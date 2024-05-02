@@ -7,8 +7,6 @@ import Footer from "./components/FooterSection/Footer";
 import Map from "./components/FooterSection/Map";
 import Message from "./components/MessageSection/Message";
 import Treatments from "./components/Modal/Treatments";
-import BookForm from "./components/Booking/BookForm";
-import BookModal from "./components/Booking/BookModal";
 
 function App() {
   return (
@@ -20,8 +18,6 @@ function App() {
       <Message />
       <Map />
       <Footer />
-      {/* <BookModal /> */}
-      {/* <BookForm /> */}
     </>
   );
 }

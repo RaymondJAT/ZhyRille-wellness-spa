@@ -106,7 +106,7 @@ const BookForm = () => {
             />
             <input
               type="submit"
-              value="Book Table"
+              value="Book Now"
               className="btn inline-block py-3 px-8 mr-6 text-xs font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"
             />
           </div>

@@ -3,7 +3,6 @@ import {
   FaFacebookSquare,
   FaTwitterSquare,
   FaInstagramSquare,
-  FaGlobeAsia,
   FaEnvelope,
   FaPhoneAlt,
   FaMapMarkerAlt,

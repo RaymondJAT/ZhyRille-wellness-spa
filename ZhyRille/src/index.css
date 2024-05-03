@@ -11,7 +11,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins";
 }
 
 /* removes arrow keys input number */
@@ -136,7 +136,7 @@ body {
 
   /* testimonial section */
   section.header h1 {
-    margin-left: -30px;
+    margin-left: -10px;
     text-align: center;
   }
 }
@@ -196,7 +196,7 @@ body {
 
   /* testimonial section */
   section.header h1 {
-    margin-left: -50px;
+    margin-left: -10px;
     text-align: center;
   }
 
@@ -227,6 +227,12 @@ body {
     width: 400px;
   }
 
+  /* testimonial section */
+  section.header h1 {
+    margin-left: -50px;
+    text-align: center;
+  }
+
   /* Message section */
   .contact-form img {
     margin: 0 1px;
@@ -249,5 +255,11 @@ body {
 
   section {
     padding: 60px 3% 50px;
+  }
+
+  /* testimonial section */
+  section.header h1 {
+    margin-left: -30px;
+    text-align: center;
   }
 }

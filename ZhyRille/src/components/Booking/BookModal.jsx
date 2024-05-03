@@ -24,7 +24,7 @@ const BookModal = () => {
       </TERipple>
 
       {/* <!-- Modal --> */}
-      <TEModal show={showModal} setShow={setShowModal}>
+      <TEModal show={showModal} setShow={setShowModal} className="book-modal">
         <TEModalDialog size="lg" centered>
           <TEModalContent>
             <TEModalHeader className="bg-stone-950 py-0 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">

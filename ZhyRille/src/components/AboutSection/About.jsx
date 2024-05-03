@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import zhyrille from "../../assets/zhyrille.png";
 
 import massage from "../../assets/oilbased.jpg";
 import AboutModal from "./AboutModal";
@@ -13,16 +14,21 @@ const About = () => {
         <img
           src={massage}
           alt="oil massage"
-          className="max-w-full h-auto rounded-xl mt-14 border-2 border-solid border-amber-50"
+          className="left-img max-w-full h-auto rounded-xl mt-14 border-2 border-solid border-amber-50"
         />
       </div>
 
       <div>
-        <h5 className="text-[10px] font-bold text-gray-300 uppercase tracking-[6px] mb-10 mt-8">
+        <h5 className="text-[12px] font-bold text-gray-300 uppercase tracking-[6px] mb-10 mt-16">
           learn more about us
         </h5>
         <h2 className="text-amber-50 text-5xl font-extrabold leading-5 mb-10">
-          ZhyRille
+          {/* ZhyRille */}
+          <img
+            src={zhyrille}
+            alt="zhyrille name"
+            className="img w-64 -mt-5 -mb-6"
+          />
         </h2>
         <p className="text-sm font-medium leading-7 text-gray-300 mb-[35px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex

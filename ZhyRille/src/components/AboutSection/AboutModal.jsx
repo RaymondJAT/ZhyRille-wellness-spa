@@ -27,15 +27,15 @@ const AboutModal = () => {
       <TEModal show={showModalLg} setShow={setShowModalLg} scrollable>
         <TEModalDialog size="xl" centered>
           <TEModalContent>
-            <TEModalHeader className="bg-slate-950">
+            <TEModalHeader className="bg-stone-950 py-0 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">
               {/* <!--Modal title--> */}
               <h5 className="text-xl font-medium leading-normal text-amber-50 dark:text-neutral-200">
-                Large modal
+                ...
               </h5>
               {/* <!--Close button--> */}
               <button
                 type="button"
-                className="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none text-amber-50"
+                className="text-amber-50 box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
                 onClick={() => setShowModalLg(false)}
                 aria-label="Close"
               >

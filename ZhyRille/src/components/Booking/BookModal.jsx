@@ -30,7 +30,7 @@ const BookModal = () => {
             <TEModalHeader className="bg-stone-950 py-3 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">
               {/* <!--Modal title--> */}
               <h5 className="text-xl font-medium leading-normal text-amber-50">
-                Modal title
+                ZhyRille Booking
               </h5>
               {/* <!--Close button--> */}
               <button

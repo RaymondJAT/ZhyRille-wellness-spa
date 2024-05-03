@@ -27,10 +27,10 @@ const BookModal = () => {
       <TEModal show={showModal} setShow={setShowModal}>
         <TEModalDialog size="lg" centered>
           <TEModalContent>
-            <TEModalHeader className="bg-stone-950 py-3 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">
+            <TEModalHeader className="bg-stone-950 py-0 border-t-2 border-l-2 border-r-2 border-amber-50 border-solid">
               {/* <!--Modal title--> */}
               <h5 className="text-xl font-medium leading-normal text-amber-50">
-                ZhyRille Booking
+                ...
               </h5>
               {/* <!--Close button--> */}
               <button

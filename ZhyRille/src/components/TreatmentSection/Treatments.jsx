@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Modal from "./Modal";
+import React from "react";
+import Modal from "./TreatmentModal";
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 import massage from "../../assets/oilbased.jpg";
@@ -30,42 +30,48 @@ const Treatments = () => {
             itemID={1}
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
           >
-            <div className="tour-content mb-16 grid grid-cols-3 items-center gap-12 mt-16">
+            <div className="tour-content my-16 sm:ml-12 grid grid-cols-3 items-center gap-12 ">
               <Modal
                 image={massage}
                 title="Skin Rejuvenation"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Skin Rejuvenation"
               />
               <Modal
                 image={massage}
                 title="Whitening Treatment"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Whitening Treatment"
               />
               <Modal
                 image={massage}
                 title="Facial Care"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Facial Care"
               />
               <Modal
                 image={massage}
                 title="Zhyrille Ultimate Package"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="ZhyRille Ultimate Package"
               />
               <Modal
                 image={massage}
                 title="Hair Removal"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Hair Removal"
               />
               <Modal
                 image={massage}
                 title="Underarm Package"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Underarm Package"
               />
             </div>
           </TECarouselItem>
@@ -76,39 +82,45 @@ const Treatments = () => {
             <div className="tour-content mb-16 grid grid-cols-3 items-center gap-12 mt-16">
               <Modal
                 image={massage}
-                title="<Massage Services>"
+                title="Massage Services"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Massage Services"
               />
               <Modal
                 image={massage}
                 title="Slimming Services"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Slimming Services"
               />
               <Modal
                 image={massage}
                 title="Body Care"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Body Care"
               />
               <Modal
                 image={massage}
                 title="Lash Care"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Lash Care"
               />
               <Modal
                 image={massage}
                 title="Hand & Foot Care"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Hand & Foot Care"
               />
               <Modal
                 image={massage}
                 title="Semi Permanent Make Up"
                 modalTitle="Hair Removal Services"
                 modalContent="This is the content of the modal."
+                modalHeader="Semi Permanent Make Up"
               />
             </div>
           </TECarouselItem>

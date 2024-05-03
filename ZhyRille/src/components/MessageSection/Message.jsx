@@ -12,11 +12,13 @@ const Message = () => {
               type="text"
               className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
               placeholder="First Name"
+              required
             />
             <input
               type="text"
               className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
               placeholder="Last Name"
+              required
             />
           </div>
 
@@ -25,6 +27,7 @@ const Message = () => {
               type="number"
               className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0 text-black"
               placeholder="Phone"
+              required
             />
           </div>
 
@@ -32,6 +35,7 @@ const Message = () => {
             rows="5"
             className="form-control w-full border-2 border-solid border-black rounded-md p-3 my-2 text-sm outline-0"
             placeholder="Message"
+            required
           ></textarea>
 
           <input

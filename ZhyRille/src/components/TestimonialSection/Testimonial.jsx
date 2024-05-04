@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 const Testimonial = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div
       id="testimonials"
       className="container relative w-full min-h-72 mx-auto"
+      data-aos="fade-right"
+      data-aos-duration="400"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+      data-aos-delay="300"
     >
       <div className="contents-wrapper w-[70%] min-h-inherit my-7 mx-auto text-center">
         <section className="header">

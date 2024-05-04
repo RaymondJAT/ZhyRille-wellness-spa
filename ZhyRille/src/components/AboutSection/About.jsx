@@ -1,16 +1,27 @@
-import React, { useState } from "react";
-import zhyrille from "../../assets/zhyrille.png";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+import zhyrille from "../../assets/zhyrille.png";
 import massage from "../../assets/oilbased.jpg";
 import AboutModal from "./AboutModal";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       id="about"
       className="holiday grid grid-cols-2 items-center gap-36 mb-9 -mt-12 bg-stone-950"
     >
-      <div>
+      <div
+        data-aos="fade-right"
+        data-aos-duration="400"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="300"
+      >
         <img
           src={massage}
           alt="oil massage"
@@ -18,7 +29,13 @@ const About = () => {
         />
       </div>
 
-      <div>
+      <div
+        data-aos="fade-left"
+        data-aos-duration="400"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="300"
+      >
         <h5 className="text-[12px] font-bold text-gray-300 uppercase tracking-[6px] mb-10 mt-16">
           learn more about us
         </h5>

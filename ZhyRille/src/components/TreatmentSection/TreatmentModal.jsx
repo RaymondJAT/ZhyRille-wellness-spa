@@ -8,7 +8,7 @@ import {
   TEModalBody,
 } from "tw-elements-react";
 
-const Modal = (props) => {
+const TreatmentModal = (props) => {
   const [showModalXL, setShowModalXL] = useState(false);
 
   return (
@@ -73,4 +73,4 @@ const Modal = (props) => {
   );
 };
 
-export default Modal;
+export default TreatmentModal;

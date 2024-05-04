@@ -13,7 +13,14 @@ const BookModal = () => {
   return (
     <div>
       {/* <!-- Button trigger modal --> */}
-      <TERipple rippleColor="white">
+      <TERipple
+        rippleColor="white"
+        data-aos="fade-right"
+        data-aos-duration="400"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+        data-aos-delay="300"
+      >
         <button
           type="button"
           className="btn inline-block py-3 px-10 text-sm font-semibold border-2 border-solid border-transparent rounded-md transition-all duration-200 ease-in cursor-pointer bg-amber-50 text-black capitalize hover:translate-x-3 hover:border-2 hover:border-solid hover:border-amber-50 hover:bg-transparent hover:text-amber-50"

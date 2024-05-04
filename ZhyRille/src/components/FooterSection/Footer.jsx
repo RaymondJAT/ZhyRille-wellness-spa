@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   FaFacebookSquare,
   FaTwitterSquare,
@@ -9,8 +11,20 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <footer id="contacts" className="footer bottom-0 w-full bg-stone-950">
+    <footer
+      id="contacts"
+      className="footer bottom-0 w-full bg-stone-950"
+      data-aos="fade-right"
+      data-aos-duration="400"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+      data-aos-delay="300"
+    >
       <div className="footer-container flex p-12 my-0 mx-">
         <div className="left section basis-1/2 py-0 px-5">
           <h2 className="text-lg text-amber-50 font-semibold">About Us</h2>
